@@ -9314,6 +9314,23 @@
 			"icon": "xui.png",
 			"script": "[^a-z]xui.*\\.js",
 			"website": "xuijs.com"
+		},
+		"Hopital": {
+			"cats": [
+				1
+			],
+			"env": "hopital",
+			"html": "<!-- Hopital",
+			"icon": "hopital.png",
+			"implies": [
+				"Laravel",
+				"PHP"
+			],
+			"meta": {
+				"generator": "Hopital ([\\d.]+)\\;version:\\1"
+			},
+			"script": "hopital",
+			"website": "www.farshadghanbari.ir/hopital"
 		}
 	},
 	"categories": {
